@@ -1,0 +1,51 @@
+/* playfair display */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* great vibes */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* raleway */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: raleway;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-family: great vibes;
+}
+
+#lyric-button {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-style: none;
+  border-radius: 3rem;
+  transition: 0.3s;
+}
+
+#lyric-button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+#song-album {
+  margin: 1rem;
+  font-family: playfair display;
+  font-size: large;
+}
+
+#lyric-text {
+  padding-inline: 13rem;
+  padding-bottom: 3rem;
+}
